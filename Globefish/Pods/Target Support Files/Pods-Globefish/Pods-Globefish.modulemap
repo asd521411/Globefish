@@ -1,0 +1,6 @@
+framework module Pods_Globefish {
+  umbrella header "Pods-Globefish-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Globefish' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Globefish
+	pod 'AFNetworking'
+  	pod 'MJExtension'
+  	pod 'MJRefresh'
+  	pod 'SVProgressHUD'
+  	pod 'ReactiveCocoa', '~> 2.3.1'
+  	pod 'SDWebImage', '~> 3.7.2'
+  	pod 'SVProgressHUD'
+  	pod 'Masonry'
+  	pod 'YYText'
+  	pod 'SVPullToRefresh'
+  	pod 'SDCycleScrollView'
+    	pod 'SSKeychain'
+
+end

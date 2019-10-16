@@ -1,0 +1,6 @@
+#import "MJRefreshBackStateFooter.h"
+@interface MJRefreshBackGifFooter : MJRefreshBackStateFooter
+@property (weak, nonatomic, readonly) UIImageView *gifView;
+- (void)setImages:(NSArray *)images duration:(NSTimeInterval)duration forState:(MJRefreshState)state;
+- (void)setImages:(NSArray *)images forState:(MJRefreshState)state;
+@end
